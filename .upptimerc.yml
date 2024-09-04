@@ -1,36 +1,47 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: Re2Dev # Your GitHub organization or username, where this repository lives
+repo: Uptime-Monitor # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Server 01 (Germany)
+    url: https://DE-01.host.re2volve.de/status
+  - name: Server 02 (Germany)
+    url: https://DE-02.host.re2volve.de/status
+  - name: Server 03 (Germany)
+    url: https://DE-03.host.re2volve.de/status
+  - name: Apps
+    url: https://status.re2volve.de/api/apps
+  - name: Pages
+    url: https://status.re2volve.de/api/pages
+  - name: URL-Shortener
+    url: https://link.re2volve.de/status
+  - name: Websites
+    url: https://status.re2volve.de/api/websites
+  - name: Auth Service
+    url: https://auth.re2volve.de/status
+  - name: Download Service
+    url: https://get.re2volve.de/status
+  - name: API Service
+    url: https://api.re2volve.de/status
+  - name: RainMC
+    url: https://status.re2volve.de/api/rainmc
+  - name: Database
+    url: https://status.re2volve.de/api/database
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  #cname: demo.upptime.js.org
+  baseUrl: /Uptime-Monitor
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  name: Re2volve Status
+  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub Pages."
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
     - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+      href: /Uptime-Monitor/
+    - title: About us
+      href: https://about.re2volve.de/
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration

@@ -1,7 +1,7 @@
 url: https://status.re2volve.de/api/apps
-status: down
-code: 502
-responseTime: 1006
-lastUpdated: 2024-10-16T05:58:48.191Z
+status: up
+code: 200
+responseTime: 699
+lastUpdated: 2024-10-16T06:27:37.391Z
 startTime: 2024-09-04T10:34:25.953Z
 generator: Upptime <https://github.com/upptime/upptime>

@@ -1,7 +1,7 @@
 url: https://status.re2volve.de/api/pages
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2024-10-17T23:15:45.195Z
+status: up
+code: 200
+responseTime: 159
+lastUpdated: 2024-10-18T07:53:33.146Z
 startTime: 2024-09-04T10:34:26.989Z
 generator: Upptime <https://github.com/upptime/upptime>
